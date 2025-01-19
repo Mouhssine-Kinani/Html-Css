@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+ 
+  font-family: "Roboto";
+  margin: 0.5rem;
+  text-align: center;
+}
+nav {
+  border: 1px solid gray;
+  border-radius: 2rem;
+  margin: 0 auto 1rem;
+  max-width: 600px;
+  font-size: 3rem;
+  line-height: 6rem;
+
+  
+}
+
+
+ h2 {
+  background-color: gold;
+  padding: 1rem;
+  border-radius:2rem 2rem 0 0 ;
+}
+
+ul {
+  list-style-type: none;
+} 
+ 
+li{
+    border-top: 1px solid #333;
+}
+li a {
+    display: block;
+}
+
+li a,
+li a:visited {
+  text-decoration: none;
+  color: gray;
+}
+
+li a:hover,
+li a:focus{
+    background-color: #333;
+    cursor: pointer;
+    color: aliceblue;
+}
+li:last-child a:hover{
+    border-radius: 0 0 2rem 2rem;
+}

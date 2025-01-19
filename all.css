@@ -1,0 +1,95 @@
+/* *{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+} */
+header nav{
+  background-color:#333;
+
+
+}
+nav ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: font-size 0.5s;
+
+}
+nav ul li{
+   display: inline-block;
+   margin: 0.7rem; 
+   padding-left: 2rem;
+   padding-right: 1rem; 
+   width: 6.39%;
+
+}
+nav ul li{
+width: 6.39%;
+
+}
+nav ul li a:hover{
+  text-decoration: underline;
+  font-size: large;
+}
+
+body {
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+table,
+td,
+th {
+  border: solid 1.5px aqua;
+  border-collapse: collapse;
+}
+th {
+  color: purple;
+  padding: 12px;
+}
+td {
+  color: rgb(115, 14, 240);
+  padding: 12px;
+}
+
+/* table {
+  display: inline-flex;
+} */
+img{
+  border-radius: 150px;
+}
+.list_try{
+  list-style-type:disc;
+  list-style-position:inside;
+  text-align: center;
+  /* list-style-image:url(html/image/black.png); */
+  /* list-style-image:url(../autre/walp.jpg) ; */
+
+}
+.list_try li{
+  margin-left: 8px;
+ 
+  
+}
+/* ul ::marker{
+  content: "only";
+  
+} */
+.list_try li:nth-child(odd){
+  margin-left: 8px;
+  color:aqua
+} 
+/* odd=impair et even=pair */
+a{
+  color: aqua;
+}
+a:visited{
+  color: brown;
+ 
+}
+a:hover , a:focus{
+  color: pink;
+  text-decoration: dashed;
+}
+a:active{
+  color: red;
+  text-decoration: dotted;
+}

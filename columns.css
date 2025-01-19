@@ -1,0 +1,14 @@
+.columns{
+    /* column-count:4;
+    column-width: 250px; */
+    columns:4 250px;
+    column-rule:2px solid black;
+    column-gap:  3rem;
+}
+.columns h2{
+    background-color: blueviolet;
+    color: aqua;
+    margin-top: 0%;
+    padding: 1rem;
+    break-inside:avoid;
+}

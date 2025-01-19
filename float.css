@@ -1,0 +1,29 @@
+.block{
+    background-color: black;
+    color: white;
+    width: 30vw;
+    height:30vw;
+    padding: 1rem;
+    margin: 1rem;
+   
+    
+
+}
+.left{
+     float: left;
+     margin-right: 1rem;
+}
+.right{
+    float: right;
+    margin:1rem;
+}
+.clear{
+    /* clear:both; */
+}
+section{
+    background-color: aqua;
+    border: 1px solid #333;
+    padding: 1rem;
+    overflow: auto;
+    display: flow-root;
+}

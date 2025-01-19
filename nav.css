@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#333;
+
+}
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    transition: font-size 1s;
+    margin: 1.5rem; 
+    
+}
+li{
+     display: inline-block;
+     margin: 0.7rem; 
+     padding-left: 2rem;
+     padding-right: 1rem; 
+}
+ul{
+    text-align: center;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+    font-size: large;
+    margin: 1rem;
+}
